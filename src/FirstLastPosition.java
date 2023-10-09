@@ -23,5 +23,4 @@ public class FirstLastPosition {
         System.out.println(ans[0]);
         System.out.print(ans[1]);
     }
-
 }
