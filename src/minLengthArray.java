@@ -8,7 +8,6 @@ public class minLengthArray {
                 nums[uniqueLen++] = nums[i];
             }
         }
-
         int ans = nums.length;
         for (int i = 0, j = 0; i < uniqueLen; ++i) {
             while (j < uniqueLen && nums[j] - nums[i] <= nums.length - 1) {
